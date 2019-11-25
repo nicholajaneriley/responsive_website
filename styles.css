@@ -1,8 +1,35 @@
 body {
     background-color: aquamarine;
+    padding-left: 15pc;
+    padding-right: 15pc;
+}
+
+p {
+    margin-left: 5pc;
+    margin-right: 5pc;
 }
 
 
+@media only screen and (min-width: 600px){
+    body {
+        margin-left: 10pc;
+        margin-right: 10pc;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    body {
+        padding-left: 10pc;
+        padding-right: 10pc;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        padding-left: 5pc;
+        padding-right: 5pc;
+    }
+}
 
 @media only screen and (max-width: 1000px){
     body {
